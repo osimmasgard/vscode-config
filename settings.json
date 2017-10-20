@@ -171,9 +171,17 @@
   "editor.wordWrap": "on",
   "editor.renderLineHighlight": "none",
 
-   // Controls how the editor should render whitespace characters, possibilities are 'none', 'boundary', and 'all'. The 'boundary' option does not render single spaces between words.
-   "editor.renderWhitespace": "none",
-     // Controls whether the editor should render indent guides
+  // Controls how the editor should render whitespace characters, possibilities are 'none', 'boundary', and 'all'. The 'boundary' option does not render single spaces between words.
+  "editor.renderWhitespace": "none",
+  // Controls whether the editor should render indent guides
   "editor.renderIndentGuides": false,
-  "workbench.startupEditor": "newUntitledFile"
+  "workbench.startupEditor": "newUntitledFile",
+  // Path to a folder containing emmet profiles and snippets.'
+  "emmet.extensionsPath": "/home/os/.config/Code/User/snippets/",
+  // When enabled, emmet abbreviations are expanded when pressing TAB.
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.showExpandedAbbreviation": "never",
+      // Enable word based suggestions
+      "editor.wordBasedSuggestions": false
+
 }

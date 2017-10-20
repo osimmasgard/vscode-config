@@ -2,6 +2,6 @@
 [
     {
         "key": "ctrl+i",
-        "command": "editor.emmet.action.wrapWithAbbreviation"
+        "command": "editor.action.insertSnippet"
     }
 ]

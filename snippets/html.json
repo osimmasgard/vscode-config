@@ -15,11 +15,9 @@
 		}
 	*/
 
-	"GreaterThanLessThan": {
-		"prefix": "gt",
-		"body": "&lt;$1&gt;",
-		"description": "Escaped HTML-tag"
+	"LessThan": {
+		"prefix": "lt",
+		"body": "&lt;$1gt;",
+		"description": "LessThan escape code  html"
 	}
-
-
 }
