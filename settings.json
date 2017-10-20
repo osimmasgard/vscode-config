@@ -146,7 +146,6 @@
     }
   },
   "workbench.activityBar.visible": true,
-  "editor.renderWhitespace": "all",
   "editor.renderControlCharacters": true,
   "files.autoSave": "off",
   "[coffeescript]": {
@@ -175,5 +174,6 @@
    // Controls how the editor should render whitespace characters, possibilities are 'none', 'boundary', and 'all'. The 'boundary' option does not render single spaces between words.
    "editor.renderWhitespace": "none",
      // Controls whether the editor should render indent guides
-  "editor.renderIndentGuides": false
+  "editor.renderIndentGuides": false,
+  "workbench.startupEditor": "newUntitledFile"
 }
