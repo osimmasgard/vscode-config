@@ -1,0 +1,7 @@
+{
+    "GreaterThanLessThan": {
+        "prefix": "gt",
+        "body": "&lt;$1&gt;",
+        "description": "Escaped HTML-tag"
+    }
+}
