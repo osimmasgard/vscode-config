@@ -3,5 +3,14 @@
     {
         "key": "ctrl+i",
         "command": "editor.action.insertSnippet"
+    },
+    {
+        "key": "ctrl+i",
+        "command": "editor.emmet.action.wrapWithAbbreviation"
+    },
+    {
+        "key": "ctrl+i",
+        "command": "-expandLineSelection",
+        "when": "editorTextFocus"
     }
 ]

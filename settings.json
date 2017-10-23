@@ -180,8 +180,8 @@
   "emmet.extensionsPath": "/home/os/.config/Code/User/snippets/",
   // When enabled, emmet abbreviations are expanded when pressing TAB.
   "emmet.triggerExpansionOnTab": true,
-  "emmet.showExpandedAbbreviation": "never",
-      // Enable word based suggestions
-      "editor.wordBasedSuggestions": false
-
+  "emmet.showExpandedAbbreviation": "inMarkupAndStylesheetFilesOnly",
+  // Enable word based suggestions
+  "editor.wordBasedSuggestions": false,
+  "git.confirmSync": false
 }
