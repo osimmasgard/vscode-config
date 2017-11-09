@@ -147,7 +147,7 @@
   },
   "workbench.activityBar.visible": true,
   "editor.renderControlCharacters": true,
-  "files.autoSave": "off",
+  "files.autoSave": "afterDelay",
   "[coffeescript]": {
 
   },
@@ -191,5 +191,13 @@
     "strings": true
   },
     // Controls whether the editor should highlight similar matches to the selection
-    "editor.selectionHighlight": false
-}
+    "editor.selectionHighlight": false,
+    "window.zoomLevel": 0,
+  
+  // Docker stuff
+    // Default registry to push to, empty string will push to Dockerhub.
+    "docker.defaultRegistry": "docker-registry.ad.tt.se",
+    // Path within registry to push to.
+    "docker.defaultRegistryPath": "ttab"
+  }
+  
