@@ -148,6 +148,7 @@
   "workbench.activityBar.visible": true,
   "editor.renderControlCharacters": true,
   "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
   "[coffeescript]": {
 
   },
@@ -172,7 +173,7 @@
   "editor.renderLineHighlight": "none",
 
   // Controls how the editor should render whitespace characters, possibilities are 'none', 'boundary', and 'all'. The 'boundary' option does not render single spaces between words.
-  "editor.renderWhitespace": "none",
+  "editor.renderWhitespace": "boundary",
   // Controls whether the editor should render indent guides
   "editor.renderIndentGuides": false,
   "workbench.startupEditor": "newUntitledFile",
@@ -190,14 +191,15 @@
     "comments": false,
     "strings": true
   },
-    // Controls whether the editor should highlight similar matches to the selection
-    "editor.selectionHighlight": false,
-    "window.zoomLevel": 0,
-  
+  // Controls whether the editor should highlight similar matches to the selection
+  "editor.selectionHighlight": false,
+  "window.zoomLevel": 0,
+
   // Docker stuff
-    // Default registry to push to, empty string will push to Dockerhub.
-    "docker.defaultRegistry": "docker-registry.ad.tt.se",
-    // Path within registry to push to.
-    "docker.defaultRegistryPath": "ttab"
-  }
-  
+  // Default registry to push to, empty string will push to Dockerhub.
+  "docker.defaultRegistry": "docker-registry.ad.tt.se",
+  // Path within registry to push to.
+  "docker.defaultRegistryPath": "ttab",
+  // When opening a file, `editor.tabSize` and `editor.insertSpaces` will be detected based on the file contents.
+  "editor.detectIndentation": true
+}
